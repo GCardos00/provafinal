@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leitura-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  .leitura-item:last-child {
+    border-bottom: none;
+  }
+  
+  .temperatura {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .umidade {
+    font-size: 1.1em;
+  }
+  
+  .alta {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .normal {
+    color: #4CAF50;
+  }
+  
+  .data-hora {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
