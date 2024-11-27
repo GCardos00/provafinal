@@ -9,7 +9,7 @@ const port = 3000;
 const serviceAccount = require("./firebase-adminsdk.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://projetoprova-94956-default-rtdb.firebaseio.com",
+  databaseURL: "url do seu realtime database",
 });
 
 // Rota para listar as leituras de temperatura e umidade
